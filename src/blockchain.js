@@ -73,7 +73,7 @@ class Blockchain{
 		let chainStr = "";
 		for(let i = 0; i< this.chain.length;i++){
 			chainStr+= this.chain[i].prettify();
-			chain+="<br><hr>";
+			chainStr+="<br><hr>";
 		}
 
 		return chainStr;
