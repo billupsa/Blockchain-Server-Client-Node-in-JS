@@ -19,7 +19,7 @@ class Block{
 		this.prevHash = prevHash; //previous block hash
 		this.nonce = 0; //some random value for mining purposes
 
-		this.mine; //mine the block
+		this.mine(); //mine the block
 	}
 
 
